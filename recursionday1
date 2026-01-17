@@ -1,0 +1,27 @@
+public class recursionlec1 {
+    public static void main(String[] args) {
+        messege();
+    }
+    //this is simple stuf but I want to print hellow world 5 times
+    // function call another function
+    static void messege() {
+        System.out.println("Hellow world");
+        messege1();
+
+    }
+    static void messege1() {
+        System.out.println("Hellow world");
+        messege2();
+    }
+    static void messege2() {
+        System.out.println("Hellow world");
+        messege3();
+
+    }
+    static void messege3() {
+        System.out.println("Hellow world");
+
+    }
+
+// in this program function calling another function
+}
