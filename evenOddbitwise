@@ -1,0 +1,12 @@
+public class evenoddusingbitwise {
+    public static void main(String[] args) {
+        int n=67 ;
+
+        System.out.println(evenOdd(n));
+    }
+
+    static boolean  evenOdd(int n) {
+       return (n & 1) == 1;
+
+    }
+}
